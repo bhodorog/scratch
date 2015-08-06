@@ -1,3 +1,4 @@
+# set your MCHOST before sourcing
 MC_HOST=${MCHOST:-"localhost"}
 PLATFORM=$(uname)
 [[ $PLATFORM == 'Darwin' ]] && alias _grep=ggrep || alias _grep=grep
